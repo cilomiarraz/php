@@ -1,3 +1,33 @@
-16:36 10/05/2019
+11:26 10/05/2019
 
-teste de ediÃ§Ã£o.
+mkdir = cria uma nova pasta
+
+cd = muda para outra pasta (CD = change direction)
+git init - cria uma pasta oculta no diretório, montando a estrutura do repositório git - diretorio com controle de versão inicializado
+
+git add nomeArquivo.extensão = leva o arquivo para o "stage area" (um tipo de sala de espera)
+
+git add --all = leva todas as alterações do projeto para o stage area
+
+git commit = confirma as alterações adicionadas pelo git add
+
+git commit -m = confirma e informa uma mensagem do porque do commit (-m de mensagem - colocar entre aspas)
+Exemplo: git commit -m "criei meu repostório..."
+
+git remote add origin = seleciona o servidor de origem para o repositorio.
+
+git config --global user.name "seu nome" = 
+
+git config --global user.email "mesmo email usado no github" = 
+
+
+git push origin master = empurrar as alterações para o servidor remoto.
+
+git pull origin master = faz o upload das modificações nos arquivos, feitos online ou por colaboradores.
+
+Em caso de conflito de versões = fazer primeiro um git pull origin master
+
+
+
+
+
